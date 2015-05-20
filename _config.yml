@@ -1,0 +1,62 @@
+# Site settings
+title: Felipe Mota
+tagline: Code worth share
+email: felipemvellado@gmail.com
+description: >
+  Olá! Sou um desenvolvedor, amante de boardgames, cultura nerd e jogos.
+  Espero aprender muito com esse blog e ajudar compartilhando :)
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://felipemvellado.github.io" # "http://dev:4000"
+logourl: /assets/images/logo_.svg # Site logo
+author: "Felipe Mota"
+author_thumbnail: "/assets/images/felipemota.jpg" # Author avatar
+excerpt_separator: <!--more-->
+# Theme customization - please change from the defaults!
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#009688" #205081" # "#272935"
+  # Social media links, leave blank to ignore
+  social:
+    github: felipemvellado
+    twitter: felipemvellado
+    facebook: felipe.mota.165
+    # gplus: +
+    # dribble: gayanvirajith
+    # pinterest: gayanvirajith
+
+  # Enable share buttons on post footer
+  show_share_buttons: true
+
+  # Show author picure, name and social links on post footer
+  show_author_info: true
+
+  # Disqus comments manager - shortname
+  disqus_shortname: felipemvellado
+
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key:
+  google_webmaster_key:
+
+# Build settings
+markdown: kramdown
+
+# Permalinks
+permalink:        pretty
+
+# Pagination config
+paginate: 7
+
+# Files/Folders to be excluded from generated _site folder
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed
