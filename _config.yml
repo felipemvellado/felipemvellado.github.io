@@ -6,7 +6,7 @@ description: >
   Olá! Sou um desenvolvedor, amante de boardgames, cultura nerd e jogos.
   Espero aprender muito com esse blog e ajudar compartilhando :)
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://felipemvellado.github.io" # "http://dev:4000"
+url: "http://felipemvellado.com.br" # "http://dev:4000"
 logourl: /assets/images/logo_.svg # Site logo
 author: "Felipe Mota"
 author_thumbnail: "/assets/images/felipemota.jpg" # Author avatar
